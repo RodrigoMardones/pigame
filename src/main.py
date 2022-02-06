@@ -5,6 +5,7 @@ class Game:
     def __init__(self) -> None:
         pygame.init()
         self.screen = pygame.display.set_mode((WIDGHT, HEIGHT))
+        pygame.display.set_caption("Zelda")
         self.clock = pygame.time.Clock()
     
     def run(self):
