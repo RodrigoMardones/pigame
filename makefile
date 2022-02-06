@@ -8,4 +8,4 @@ install:
 	pip3 install -r requirements.txt
 
 rundev:
-	python3 main.py
+	python3 src/main.py
