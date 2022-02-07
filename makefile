@@ -7,5 +7,5 @@ runEnv:
 install:
 	pip3 install -r requirements.txt
 
-rundev:
+run:
 	python3 src/main.py
